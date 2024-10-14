@@ -42,8 +42,6 @@ const Page = () => {
     fetchCounts();
   }, []);
 
-  console.log("5555", data);
-
   return (
     <div className="flex w-full flex-col h-screen items-start justify-center p-36">
       <div className="w-full items-start flex justify-between p-10 pt-0 pl-4 mb-20">
